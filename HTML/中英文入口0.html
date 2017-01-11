@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>中英文入口</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: "微软雅黑",Arial,Tahoma;
+			background-image: url(../img/入口欢迎页/中英文入口.jpg);
+			background-repeat: no-repeat;
+			height: 100%;
+			/*position: relative; 不需要给body加relative加了会让body也脱离文档流*/
+		}
+		a{
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+		}
+		ul li{
+			list-style: none;
+		}
+		.screen{
+			width: 100%;
+			text-align: center;
+		}
+		.Logo{
+			display: inline-block;
+			width: 221px;
+			height: 206px;
+			margin-top: 220px;
+		}
+		.zhcn-en{
+			width: 180px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0 auto;
+		}
+		.zzc{
+			background-color: black;
+			opacity: 0.5;
+			position: absolute;
+			height: 100%;
+			left: 0;
+			top: 0;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<div class="screen">
+		<img src="../img/入口欢迎页/Logo.png" alt="Logo" class="Logo">
+		<p class="zhcn-en">
+			<a href="首页1.html" style="float: left;">>中文版</a><a href="Javascript:;" style="float: right;">>英文版</a>
+		</p>
+		<div style="clear: both;"></div>
+		<div class="screen zzc"></div>
+	</div>
+</body>
+</html>

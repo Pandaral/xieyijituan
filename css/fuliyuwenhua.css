@@ -1,0 +1,29 @@
+.yuangongshengrihui{
+	width: 1025px;
+	height: auto;
+	margin: 40px auto;
+	padding:50px 20px;
+	border: 2px solid #ccc;
+}
+.birthdayParty-atr{
+	width: 550px;
+	height: auto;
+	display: inline-block;
+	color: #666;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.pt-30{
+	padding-top: 30px;
+}
+.ml-25{
+	margin-left: 25px;
+}
+.fll{
+	float: left;
+	width: 576px;
+}

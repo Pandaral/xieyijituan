@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻中心</title>
+	<link rel="stylesheet" type="text/css" href="../css/shouye1.css">
+	<link rel="stylesheet" type="text/css" href="../css/news-center.css">
+	<script type="text/javascript" src="../js/jq/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="../js/jq/lunbo.js"></script>
+	<script type="text/javascript" src="../js/jq/gotoTop.js"></script>
+	<style type="text/css">
+		*{margin:0; padding: 0;}
+		.lubo{ width: 100%; min-width:1000px;clear: both; position: relative; }
+		.lubo_box{ position: relative; width: 100%;  }
+		.lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%; opacity: 0;filter:alpha(opacity=0);}
+		.lubo_box li a{ display: block;width: 100%;  height: 100%;}
+
+		.lubo_box li img{ width: 100%;}
+
+		/*圆点*/
+		.cir_box{ overflow: hidden; position: absolute; z-index: 100;}
+		.cir_box li{ float: left; width: 30px; height: 5px; margin:0 5px; cursor: pointer; background: #fff; opacity: 0.8;filter:alpha(opacity=80);}
+		.cir_on{ background: #000 !important;}
+
+		/*按钮*/
+		.lubo_btn{ position: absolute; width: 100%; top: 140px;}
+		.left_btn, .right_btn{ width: 30px; height: 80px; background: #000;opacity: 0.8;filter:alpha(opacity=80); cursor: pointer; color: #fff; line-height: 80px; font-size: 30px; text-align: center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+		.left_btn{ float: left;}
+		.right_btn{ float: right;}
+	</style>
+</head>
+<body>
+	<!-- 导航 -->
+	<div class="nav">
+		<img src="../img/首页1/nav-logo.png" height="75" alt="">
+		<ul class="navList">
+			<li><a href="#">首&nbsp;&nbsp;页</a></li>
+			<li><a href="Javascript:;">关于写意</a></li>
+			<li><a href="Javascript:;">写意数字</a></li>
+			<li><a href="Javascript:;">意凡空间设计</a></li>
+			<li><a href="#">写意BIM</a></li>
+			<li><a href="#">意展展示</a></li>
+			<li><a href="#">人才招聘</a></li>
+			<li><a href="#">联系我们</a></li>
+		</ul>
+		<!-- <div style="clear: both;"></div> 父元素定高-->
+	</div>
+	<!-- 导航结束 -->
+	<!-- 图片轮播引入 -->
+	
+	<!-- 第一屏背景切换 -->
+	<div class="lubo">
+		<ul class="lubo_box">
+			<li style=" opacity: 1;filter:alpha(opacity=100);"><a href="#"><img src="../img/新闻中心/lunbotu-news.png"></a></li>
+			<li><a href="#"><img src="../img/新闻中心/lunbotu-about.png"></a></li>
+		</ul>
+	</div>
+	<!-- 引入结束 -->
+	
+	<!-- newsList Start-->
+	<div class="newsList">
+		<p class="ping4-tit"><span class="ping3-linethrough">————————</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #d80c18; font-size: 28px; font-weight: bold;">新闻中心</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ping3-linethrough">————————</span></p>
+		<ul class="list-content">
+			<li class="content">
+				<img src="../img/新闻中心/birthdayParty.png" alt="生日派对" class="party">
+				<dl class="news">
+					<dt class="news-tit">新闻标题</dt>
+					<dd class="news-atr">
+						拥有数百位员工的写意集团，每个月中旬举行的员工生日会成为员工与公司之间、部门与部门之间、员工与员工之间沟通的一座桥梁。每个月由HR部门牵头组织，为当月的寿星举行生日Party，集体为寿星祝贺的同时，也为其他同事提供一次美食当下，把“酒“言欢的机会。
+					</dd>
+					<dd class="riqi">
+						<span style="float: left;">2015年7月16日</span><span style="float: right; cursor: pointer; border: 1px solid #d80c18;">>>更&nbsp;多</span>
+						<div style="clear: both;"></div>
+					</dd>
+				</dl>
+			</li>
+			<li class="content">
+				<img src="../img/新闻中心/birthdayParty-2.png" alt="生日派对" class="party">
+				<dl class="news">
+					<dt class="news-tit">新闻标题</dt>
+					<dd class="news-atr">
+						写意体育联盟，写意集团旗下的运动锻炼平台，该平台面向写意全体员工，无论是哪个部门或是何种岗位的同事，均可加入。目前联盟旗下设有足球部、篮球部、自行车骑行部、游泳部、羽毛球部、慢跑部七大运动部门，后期将根据员工参与情况拓设其他运动部门，确保每一位员工都能在联盟中找到适合自己的项目。
+					</dd>
+					<dd class="riqi">
+						<span style="float: left;">2015年7月16日</span><span style="float: right; cursor: pointer; border: 1px solid #d80c18;">>>更&nbsp;多</span>
+						<div style="clear: both;"></div>
+					</dd>
+				</dl>
+			</li>
+			<li class="content">
+				<img src="../img/新闻中心/birthdayParty-3.png" alt="生日派对" class="party">
+				<dl class="news">
+					<dt class="news-tit">新闻标题</dt>
+					<dd class="news-atr">
+						拥有数百位员工的写意集团，每个月中旬举行的员工生日会成为员工与公司之间、部门与部门之间、员工与员工之间沟通的一座桥梁。每个月由HR部门牵头组织，为当月的寿星举行生日Party，集体为寿星祝贺的同时，也为其他同事提供一次美食当下，把“酒“言欢的机会。
+					</dd>
+					<dd class="riqi">
+						<span style="float: left;">2015年7月16日</span><span style="float: right; cursor: pointer; border: 1px solid #d80c18;">>>更&nbsp;多</span>
+						<div style="clear: both;"></div>
+					</dd>
+				</dl>
+			</li>
+			<li class="content">
+				<img src="../img/新闻中心/birthdayParty-2.png" alt="生日派对" class="party">
+				<dl class="news">
+					<dt class="news-tit">新闻标题</dt>
+					<dd class="news-atr">
+						写意体育联盟，写意集团旗下的运动锻炼平台，该平台面向写意全体员工，无论是哪个部门或是何种岗位的同事，均可加入。目前联盟旗下设有足球部、篮球部、自行车骑行部、游泳部、羽毛球部、慢跑部七大运动部门，后期将根据员工参与情况拓设其他运动部门，确保每一位员工都能在联盟中找到适合自己的项目。
+					</dd>
+					<dd class="riqi">
+						<span style="float: left;">2015年7月16日</span><span style="float: right; cursor: pointer; border: 1px solid #d80c18;">>>更&nbsp;多</span>
+						<div style="clear: both;"></div>
+					</dd>
+				</dl>
+			</li>
+		</ul>
+		<ul class="page">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+		<!-- 底部滑块 -->
+		<ul class="backTop" onclick="gotoTop();return false;" style="cursor: pointer;">
+			<li style="color: #e68086; font-weight: bold; line-height: 30px;">^</li>
+			<li style="font-size: 14px; font-weight: bold;">TOP</li>
+		</ul>
+		<!-- 底部滑块 -->
+	</div>
+	<!-- newsList ending -->
+
+	<!-- 底部开始 -->
+	<p class="ping4-tit"><span class="ping3-linethrough">————————</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #d80c18; font-size: 28px; font-weight: bold;">联系我们</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ping3-linethrough">————————</span></p>
+	<ul class="ping4-contract">
+		<li>
+			<img src="../img/首页1/微信二维码.png" alt="">
+			<span>微信号：写意数字图像</span>
+		</li>
+		<li>
+			<img src="../img/首页1/微博.png" alt="">
+			<span>微博：写意数字图像</span>
+		</li>
+		<li>
+			<img src="../img/首页1/位置导航.png" alt="">
+			<span>位置导航</span>
+		</li>
+		<li>
+			<img src="../img/首页1/电话地址.png" alt="">
+			<span style="display: block;">上海市杨浦区四平路1147弄2号（创意中心）</span>
+			<span style="display: block; text-align: left; padding-left: 15px;">Email: mail@shining.com</span>
+		</li>
+	</ul>
+	<p class="copyleft">
+		Copyright © 1998-2015 写意集团版权所有
+	</p>
+	<!-- 底部结束 -->
+	<script type="text/javascript">
+		$(function(){
+			$(".lubo").lubo({
+
+			});
+			$(".lubo").css('height','310px');
+			$(".lubo_box").css('height','310px');
+			$(".lubo_box li").css('height','310px');
+			$(".lubo_box li img").css('height','310px');
+		})
+	</script>
+</body>
+</html>

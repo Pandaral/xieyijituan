@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="../css/shouye1.css">
+	<script type="text/javascript" src="../js/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/jq/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="../js/jq/jquery.easing.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad:function(anchorLink, index){
+					if(index==3 || index==4){
+						$('.nav').fadeIn(1000);
+					}
+				},
+				onLeave: function(index, direction){
+					if(index==3 || index==4){
+						$('.nav').fadeOut(1000);
+					}
+				}
+			});
+		});
+	</script>
+	<style>
+	.section1 { background: url(../img/入口欢迎页/中英文入口.jpg) 50%;}
+	.section2 { background: url(../img/首页1/首页-屏2bg.png) 50%;}
+	.section3 { background: url(../img/首页1/首页-屏3bg.png) 50%;}
+	.section4 {  }
+	</style>
+</head>
+<body>
+<div class="nav">
+	<img src="../img/首页1/nav-logo.png" height="75" alt="">
+	<ul class="navList">
+		<li><a href="#">首&nbsp;&nbsp;页</a></li>
+		<li><a href="Javascript:;">关于写意</a></li>
+		<li><a href="Javascript:;">写意数字</a></li>
+		<li><a href="Javascript:;">意凡空间设计</a></li>
+		<li><a href="">写意BIM</a></li>
+		<li><a href="">意展展示</a></li>
+		<li><a href="">人才招聘</a></li>
+		<li><a href="">联系我们</a></li>
+	</ul>
+	<!-- <div style="clear: both;"></div> 父元素定高-->
+</div>
+	<div id="dowebok">
+		<div class="section section1">
+			<img src="../img/入口欢迎页/Logo.png" alt="Logo" class="Logo">
+			<p class="zhcn-en">写&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— —&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;就&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;字&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;梦&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想</p>
+		</div>
+		<div class="section section2">
+			<p class="ping2-tit">—————————————&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旗下品牌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—————————————</p>
+			<table class="ping2-tu" cellspacing="25">
+				<tr>
+					<td class="ping2-tu1"><img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing"><img src="../img/首页1/1.png" alt=""></td>
+					<td class="ping2-tu2"><img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing"><img src="../img/首页1/2.png" alt=""></td>
+					<td class="ping2-tu3"><img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing"><img src="../img/首页1/3.png" alt=""></td>
+				</tr>
+				<tr>
+					<td class="ping2-tu4"><img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing"><img src="../img/首页1/4.png" alt=""></td>
+					<td class="ping2-tu5"><img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing"><img src="../img/首页1/5.png" alt=""></td>
+					<td class="ping2-tu6">
+						<span class="ping2-ziti">写意传播</span>
+						<img src="../img/首页1/梯形.png" alt="" style="bottom: 0; left: 0; opacity: 0;" class="tixing">
+						<img src="../img/首页1/6.png" alt="">
+					</td>
+					<!-- 后期删图片换字体 -->
+				</tr>
+			</table>
+		</div>
+		<div class="section section3">
+			<p class="ping3-tit"><span class="ping3-linethrough">————————</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #d80c18; font-size: 28px; font-weight: bold;">关于写意</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ping3-linethrough">————————</span></p>
+			<p class="ping3-atr1">
+				写意集团，中国第一批数字展示综合方案提供商，自1998年成立，至今17年项目经验积累。集团旗下设立写意数字、意展、意凡、写意BIM4大子品牌。共设有6个国内全资子公司及1个欧洲联络处，分别为上海集团总部、武宁分部、同济分部、南宁分部、徐汇分部、北海分部及慕尼黑联络处。截止到目前为止，写意集团共服务过（2820）家国内客户，百余家国外客户；完成项目案例（2W）套。多年口碑积累，使写意集团在政府、地产、企业和专业设计师领域备受关注。同时集团下设的人才与研发中心，为集团提供业内最新的高新技术研发，强化技术实力；培训相关技术操作人员，输送新鲜血液，从内部支持集团各子品牌的全面成长。
+			</p>
+			<ul class="ping3-atr2">
+				<li><span></span>子品牌写意数字专注于为设计领域提供效果图、3D影像及三维互动业务服务；</li>
+				<li><span></span>子品牌意展专注于为企业、政府的创意展馆项目提供策划、设计及施工三环一体化解决方案；</li>
+				<li><span></span>子品牌意凡专注于室内创意设计及后期施工，为品牌解决全套室内装修工作。</li>
+				<li><span></span>写意BIM则专注于建筑信息模型在建筑领域的操作应用及推广</li>
+			</ul>
+			<p class="ping3-atr3">
+				在未来，写意集团继续运用先进的CRM客户管理平台及OA管理系统，为房地产、 政府、军事、工业产品、影视、医疗等相关领域提供综合数字展示项目，为企业及政府带来更清晰，更直观，更高效的形象展示。
+			</p>
+			<p class="ping3-more">
+				<a href="#">更多</a>
+			</p>
+			<ul class="backTop">
+				<li style="color: #e68086; font-weight: bold; line-height: 30px;">^</li>
+				<li style="font-size: 14px; font-weight: bold;">TOP</li>
+			</ul>
+		</div>
+		<div class="section section4">
+			<p class="ping4-tit"><span class="ping3-linethrough">————————</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #d80c18; font-size: 28px; font-weight: bold;">联系我们</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ping3-linethrough">————————</span></p>
+			<ul class="ping4-contract">
+				<li>
+					<img src="../img/首页1/微信二维码.png" alt="">
+					<span>微信号：写意数字图像</span>
+				</li>
+				<li>
+					<img src="../img/首页1/微博.png" alt="">
+					<span>微博：写意数字图像</span>
+				</li>
+				<li>
+					<img src="../img/首页1/位置导航.png" alt="">
+					<span>位置导航</span>
+				</li>
+				<li>
+					<img src="../img/首页1/电话地址.png" alt="">
+					<span style="display: block;">上海市杨浦区四平路1147弄2号（创意中心）</span>
+					<span style="display: block; text-align: left; padding-left: 15px;">Email: mail@shining.com</span>
+				</li>
+			</ul>
+			<p class="copyright">
+				Copyright © 1998-2015 写意集团版权所有
+			</p>
+		</div>
+	</div>
+</body>
+</html>

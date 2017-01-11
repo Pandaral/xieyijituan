@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑",Arial,Tahoma;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+/*第一屏*/
+.section1{
+	width: 100%;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.Logo{
+	display: inline-block;
+	width: 221px;
+	height: 206px;
+}
+.zhcn-en{
+	width: 396px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 auto;
+	/*屏幕变化时保持此标签居中不变的方法是让它变为行内元素，因为父元素的center而居中不变 或者margin*/
+}
+/*第二屏*/
+.ping2-tit{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.ping2-tu{
+	margin: 0 auto;
+}
+.ping2-tu td{
+	width: 377px;
+	height: 162px;
+	position: relative;
+}
+.ping2-tu img{
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+}
+.ping2-ziti{
+	color: #333;
+	position: absolute;
+	left: 22px;
+	bottom: 37px;
+	font-size: 17px;
+	font-weight: bold;
+	z-index: 999;
+}
+.ping2-tu1{
+	background: url(../img/首页1/01.png);
+}
+.ping2-tu2{
+	background: url(../img/首页1/02.png);
+}
+.ping2-tu3{
+	background: url(../img/首页1/03.png);
+}
+.ping2-tu4{
+	background: url(../img/首页1/04.png);
+}
+.ping2-tu5{
+	background: url(../img/首页1/05.png);
+}
+.ping2-tu6{
+	background: url(../img/首页1/06.png);
+}
+.ping2-tu1:hover .tixing,.ping2-tu2:hover .tixing,.ping2-tu3:hover .tixing,.ping2-tu4:hover .tixing,.ping2-tu5:hover .tixing,.ping2-tu6:hover .tixing{
+	-webkit-animation: zuoyi 1s linear 1;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes zuoyi{
+	from{
+		display: none;
+		opacity: 0;
+		-webkit-transform:translateX(-222px);
+	}
+	to{
+		display: block;
+		opacity: 1;
+		-webkit-transform:translateX(0);
+	}
+}
+/*第三屏*/
+.nav{
+	width: 100%;
+	height: 75px;
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	background-color: #fff;
+	position: fixed;
+	top: 10px;
+	left: 0;
+	display: none;
+	z-index: 9999;
+}
+.nav .navList{
+	width: 833px;
+	height: 75px;
+	float: right;
+}
+.nav .navList li a{
+	width: 101px;
+	height: 75px;
+	float: left;
+	line-height: 75px;
+	text-align: center;
+	color: #666;
+}
+.nav .navList li a:hover{
+	background-color: #d80c18;
+	color: #fff;
+}
+.ping3-tit{
+	text-align: center;
+	width: auto;
+	height: 45px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+.ping3-tit span{
+	vertical-align: middle;
+}
+.ping3-linethrough{
+	color: #333;
+}
+.ping3-atr1{
+	margin: 0 auto;
+	width: 950px;
+	height: auto;
+	line-height: 30px;
+	font-size: 15px;
+	color: #444;
+	margin-bottom: 35px;
+}
+.ping3-atr2{
+	margin: 0 auto;
+	width: 950px;
+	height: auto;
+	line-height: 30px;
+	font-size: 15px;
+	color: #444;
+	margin-bottom: 25px;
+}
+.ping3-atr2 li{
+	position: relative;
+	padding-left: 20px;
+}
+.ping3-atr2 li span{
+	background-color: #d80e1a;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 4px;
+	top: 10px;
+}
+.ping3-atr3{
+	margin: 0 auto;
+	width: 950px;
+	height: auto;
+	line-height: 30px;
+	font-size: 15px;
+	color: #444;
+}
+.ping3-more{
+	text-align: center;
+	height: 30px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.ping3-more a{
+	color: #fff;
+	background-color: #e68086;
+	display: inline-block;
+	width: 120px;
+	height:30px;
+	line-height: 30px;
+	border-radius: 20px;
+}
+.backTop{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 45px;
+	height: 45px;
+	background: url(../img/首页1/backTop.png) no-repeat;
+}
+.backTop li{
+	text-align: center;
+	height: 20px;
+}
+/*第四屏*/
+.section4{
+	position: relative;
+}
+.ping4-tit{
+	text-align: center;
+	width: auto;
+	height: 45px;
+	margin: 85px auto 40px;
+}
+.ping4-contract{
+	height: 135px;
+	text-align: center;
+	margin-bottom: 30px;  /*为公共样式准备*/
+}
+.ping4-contract li{
+	display: inline-block;
+	margin: 0 30px;
+}
+.ping4-contract img{
+	display: block;
+}
+.ping4-contract span{
+	font-size: 18px;
+	color: #bbb;
+}
+.copyright{
+	width: 100%;
+	height: 50px;
+	background-color: #e03d46;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0px;
+}

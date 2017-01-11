@@ -1,0 +1,79 @@
+/*top start*/
+.recruitment-bigsword-top{
+	width: 100%;
+	height: auto;
+	border-bottom: 5px solid #d80c18;
+	background: #f4f4f4;
+}
+.slide-menu-wrap{
+	width: 963px;
+	height: auto;
+	padding: 0 150px;
+	margin: 0 auto;
+}
+.slide-menu-wrap .tit{
+	height: 35px;
+	line-height: 35px;
+	background-color: #d5d5d5;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	position: relative;
+	color: #595757;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.slide-menu-wrap .tit b{
+	background-color: #d80e1a;
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 25px;
+	top: 13px;
+}
+.jiahao{
+	position: absolute;
+	right: 15px;
+	top: 8px;
+	color: #595757;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+}
+.atricle{
+	background-color: #f9f9f9;
+	color: #828181;
+	padding: 10px 50px;
+	display: none;
+}
+.duty{
+	padding-bottom: 70px;
+}
+.duty h3{
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.duty p{
+	font-size: 15px;
+	margin: 10px 0;
+}
+.mail-address{
+	width: 963px;
+	height: auto;
+	padding: 0 150px;
+	margin: 60px auto;
+}
+/*top ending*/
+/*bottom start*/
+.recruitment-bigsword-bottom{
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 160px;
+	background: url(../img/新闻中心/newsList-bg.png) bottom center no-repeat;
+}
+
+/*bottom ending*/

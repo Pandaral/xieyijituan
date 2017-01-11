@@ -1,0 +1,38 @@
+.contract-midd{
+	width: 100%;
+	height: auto;
+	padding-bottom: 160px;
+	background: url(../img/联系我们/contract-us-bg.png) bottom center no-repeat;
+}
+.bar{
+	float: left;
+	background-color: #d80c18;
+	width: 5px;
+	height: 40px;
+	margin-right: 25px;
+}
+.midd-content{
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.contract-midd h2{
+	color: #666;
+	height: 40px;
+	line-height: 35px;
+}
+.detail{
+	color: #666;
+}
+.detail dt{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 35px;
+}
+.detail dd{
+	font-size: 17px;
+}
+.detail dd img{
+	vertical-align: middle;
+	/*谨记，此句针对内联元素和行内块元素，如果行内块元素包裹内联元素想要垂直居中则需要行内块元素和其包裹的内联元素都有vertical-align: middle;这句话才能全部都垂直居中在同一水平线上。*/
+}
